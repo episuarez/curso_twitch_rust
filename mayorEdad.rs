@@ -1,7 +1,6 @@
 use std::io::Write;
 
 fn main() {
-
     print!("Dime un año de nacimiento: ");
     std::io::stdout().flush().expect("Error: Al vaciar el buffer.");
     let mut anno = String::new();
@@ -15,5 +14,4 @@ fn main() {
     } else {
         print!("No eres mayor de edad");
     }
-
 }
